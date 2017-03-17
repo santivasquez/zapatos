@@ -5,6 +5,8 @@ Rails.application.routes.draw do
 
   get 'sesion/destroy'
 
+  resources :sesion
+
   resources :users
   root 'welcome#index'
 
