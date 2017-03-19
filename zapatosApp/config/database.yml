@@ -14,9 +14,9 @@ default: &default
   encoding: utf8
   pool: 5
   username: root
-  password: carlos18
-  port: 3306
+  password: carlos18bp
   host: 10.131.137.166
+  port: 3306
   socket: /var/run/mysqld/mysqld.sock
   reconnect: true
 
